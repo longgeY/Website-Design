@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HW4</title>
+
+        <meta charset="UTF-8">
+        <meta name="author" content="Longge Yuan"> 
+        <style>
+            body {
+                width: 1000px;	
+                margin: auto;	
+                background-image:url('https://static.runoob.com/images/mix/gradient2.png');
+	            background-repeat:repeat-x;
+            }
+        </style>
+
+         <link rel="stylesheet" type="text/css" href="FinalProject.css">
+         <script src="HW4.js"></script>
+
+    </head>
+    
+    <body>
+        <div class="paragraph">
+            <h1>Please fill the blanks for submitting</h1>
+
+            <fieldset>
+                <form action="Upload.php" method="POST" enctype="multipart/form-data">
+                    <!-- Upload Img:<input type="file" name="img">
+                    <br><br> -->
+                    <label>Item:</label>
+                    <input type="text" name="itemname">
+                    <label>Price:</label>
+                    <input type = "number" name="price">
+                    <label>Account:</label>
+                    <input type = "number" name="number">
+                    <label>Phone:</label>
+                    <input type = "number" name="PhoneNumber">
+                    <br><br>
+                    <input type="submit" name="Upload" value="Upload">
+                </form>
+            </fieldset>    
+
+            <p>
+                <a href="MyProfile.php">Go Back</a>
+            </p>
+        </div>
+    </body>
+</html>

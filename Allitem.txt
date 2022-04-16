@@ -1,0 +1,15 @@
+pencil; 3; Sara; 32; 342424242
+pen; 4; Kenne; 2342; 523423423
+iphone; 8000; Akaman; 23; 132423423
+Pencil; 3; Silly; 13; 342411223
+Chip; 5; Bill; 15; 23252345
+Cooke; 1000; Jhin; 35; 1242234555
+PC; 342342; Darius; 34; 668324133
+MAC; 234245; Draven; 3242; 322123143
+Nutella; 13; longge; 5; 345678987
+Pepsi; 2; longge; 100; 3121935647
+car; 10000; longge; 2; 2342353436
+PC; 1000; longge; 3; 3425352343
+; ; ; ; 
+PC; 23245; longge; 856; 28643877
+car; 10000; longge; 3; 453212312
