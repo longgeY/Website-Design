@@ -26,19 +26,18 @@ This is a **Flea Market Web Application** built using **HTML, CSS, JavaScript, a
 | `Flea market.php` | Main page displaying market data |
 | `Review.php` | Handles user reviews/comments |
 | `Upload.php` | Handles file uploads |
-| `response.php` | Possibly an API response handler |
+| `response.php` | Check if the user is logged in |
 
 ### 🗄️ Data Storage
 | File | Description |
 |------|------------|
 | `Allitem.txt` | Stores all item data |
-| `myitem.txt` | Stores user-specific item data |
+| `myitem.txt` | Stores user-upload item data |
 
 ### 📄 Documentation
 | File | Description |
 |------|------------|
-| `README.md` | This document - project overview & instructions |
-| `Readme.docx` | Another project documentation format |
+| `Readme.docx` | Project documentation format |
 
 ## 🚀 Features
 - User authentication (Login/Logout)
@@ -46,10 +45,4 @@ This is a **Flea Market Web Application** built using **HTML, CSS, JavaScript, a
 - User reviews and comments
 - Search functionality
 - Basic data storage using text files
-
-## 🔧 Setup & Usage
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/flea-market.git
-   cd flea-market
 
