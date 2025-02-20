@@ -5,7 +5,10 @@ In My profile, there are two functions, upload and review. For the upload functi
 
 # Flea Market Web Application
 
-This is a **Flea Market Web Application** built using **HTML, CSS, JavaScript, and PHP**. It includes user authentication, item management, and a simple search functionality.
+This is a **Flea Market Web Application** built using **HTML, CSS, JavaScript, PHP**. It includes user authentication, item management, and a simple search functionality.
+
+## 🛠️ Tech Stack
+**HTML, CSS, JavaScript, PHP**
 
 ## 📂 Project Structure
 
