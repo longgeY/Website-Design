@@ -3,14 +3,53 @@ For this website, I try to design the program like an online Market. I called it
 User can upload the item that they want to sell or search the thing that they want to buy. Also, it supposes that people log in by the account (username: longge password: 12345). 
 In My profile, there are two functions, upload and review. For the upload function, user need to complete the information of the selling item. For the review function, user can review what the item does user upload.
 
-Support software client program software: Chrome
-Hardware: PHP, HTML, JavaScript, CSS
-Service: Web Service, http://199.17.161.60:3440/
-Data Save: Allitem.txt; All item information
-myitem.txt; user’s item information
+# Flea Market Web Application
 
-Please log in before you upload your project.
-![image](https://github.com/user-attachments/assets/36a642a5-eacf-4702-b3b1-812f22623270)
+This is a **Flea Market Web Application** built using **HTML, CSS, JavaScript, and PHP**. It includes user authentication, item management, and a simple search functionality.
 
-Enter the username and password (username: longge password: 12345. Only this account can be access)
-![image](https://github.com/user-attachments/assets/00049355-7bde-420f-9c7c-c808d153248a)
+## 📂 Project Structure
+
+### 🖥️ Frontend (Client-Side)
+| File | Description |
+|------|------------|
+| `Login.html` | Login page UI |
+| `Upload.html` | File upload page UI |
+| `FinalProject.css` | Main stylesheet for the project |
+| `search.js` | JavaScript for search functionality |
+
+### 🖥️ Backend (Server-Side)
+| File | Description |
+|------|------------|
+| `Login.php` | Handles user login logic |
+| `Logout.php` | Handles user logout |
+| `MyProfile.php` | User profile management page |
+| `Flea market.php` | Main page displaying market data |
+| `Review.php` | Handles user reviews/comments |
+| `Upload.php` | Handles file uploads |
+| `response.php` | Possibly an API response handler |
+
+### 🗄️ Data Storage
+| File | Description |
+|------|------------|
+| `Allitem.txt` | Stores all item data |
+| `myitem.txt` | Stores user-specific item data |
+
+### 📄 Documentation
+| File | Description |
+|------|------------|
+| `README.md` | This document - project overview & instructions |
+| `Readme.docx` | Another project documentation format |
+
+## 🚀 Features
+- User authentication (Login/Logout)
+- Item management (Upload, Store, Display)
+- User reviews and comments
+- Search functionality
+- Basic data storage using text files
+
+## 🔧 Setup & Usage
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/flea-market.git
+   cd flea-market
+
